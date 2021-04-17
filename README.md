@@ -5,11 +5,22 @@ Grupo: DIU3_ALH.  Curso: 2020/21
 Updated: 18/3/2021
 
 Proyecto: 
->>> Decida el nombre corto de su propuesta en la práctica 2 
+> GoGoKart: App para organizar torneos de karts
 
 Descripción: 
 
->>> Describa la idea de su producto en la práctica 2 
+> App para organizar y unirse a carreras de karts. Tienes la opción de organizar
+una carrera en un espacio específico, indicando el número de participantes, reglas, etc.
+Además, los propios circuitos también tienen la posibilidad de organizar sus propias
+carreras y torneos en sus centros. Por otra parte, puedes optar por unirte a carreras o
+torneos que están organizándose. Cada usuario tendrá un perfil donde se muestra
+información acerca de las carreras que ha participado, zonas de preferencia o comentarios
+de otros usuarios. Así mismo, los centros que ofrecen sus instalaciones, también tienen un
+perfil en el que se muestra su localización, disponibilidad, comentarios de usuarios,
+competiciones activas o futuras, etc. Por último, puede haber carreras clasificatorias en las
+que tu posición en la carrera cambiará tu ranking, de manera que se pueden ofrecer
+premios, o los organizadores pueden optar por organizar carreras para un determinado
+nivel.
 
 Logotipo: 
 >>> Opcionalmente si diseña un logotipo para su producto en la práctica 3 pongalo aqui
@@ -115,50 +126,81 @@ nos ocurra, para tratar siempre de ofrecer la mejor experiencia al usuario final
 ## Paso 2. UX Design  
 
 
-![Método UX](img/feedback-capture-grid.png) 2.a Feedback Capture Grid / EMpathy map / POV
+![Método UX](img/feedback-capture-grid.png) 2.a POVs
 ----
+> **POV:** Persona 1
+- **User:** Una persona adulta aficionada a los deportes de motor
+- **Need:** Desconectar del trabajo.
+- **Insight:** Trabaja toda la semana y el finde le gustaría realizar alguna actividad
+relacionada con el motor, como el karting, pero a ninguno de sus amigos le gusta por
+eso busca gente para participar en alguna carrera.
 
+> **POV:** Persona 2
+- **User:** Una madre cuyo hijo le gustan los coches.
+- **Need:** Ofrecer a su hijo un hobby que le guste.
+- **Insight:** A su hijo le gusta el mundo del motor pero no hay muchas actividades para
+niños de su edad relacionadas con este y busca una forma fácil de organizar o
+unirse a actividades ya creadas.
 
->>> Comenta con un diagrama los aspectos más destacados a modo de conclusion de la práctica anterior,
-
-
- Interesante | Críticas     
-| ------------- | -------
-  Preguntas | Nuevas ideas
-  
-    
->>> ¿Que planteas como "propuesta de valor" para un nuevo diseño de aplicación para economia colaborativa ?
->>> Problema e hipótesis
->>>  Que planteas como "propuesta de valor" para un nuevo diseño de aplicación para economia colaborativa te
->>> (150-200 caracteres)
-
-
+> **POV:** Persona 3
+- **User:** Un grupo de amigos.
+- **Need:** Una forma de competir en los karts de una manera más formal.
+- **Insight:** Van de vez en cuando a echar una carrera entre ellos pero les gustaría
+pasar al siguiente nivel y competir con más gente con sus misma afición.
 
 ![Método UX](img/ScopeCanvas.png) 2.b ScopeCanvas
 ----
->>> Propuesta de valor 
+![ScopeCanvas](P2/ScopeCanvas.png)
 
-![Método UX](img/Sitemap.png) 2.b Tasks analysis 
+![Método UX](img/Sitemap.png) 2.b Tasks analysis: Task Flow 
 -----
-
->>> Definir "User Map" y "Task Flow" ... 
+![TaskFlow](P2/TaskFlow/taskflow.png)
 
 
 ![Método UX](img/labelling.png) 2.c IA: Sitemap + Labelling 
 ----
+> **Site Map**
+![SiteMap](P2/SiteMap/sitemap.png)
 
+> **Lablleing**
 
->>> Identificar términos para diálogo con usuario  
-
-Término | Significado     
+**Label** | **Scope note**     
 | ------------- | -------
-  Login¿?  | acceder a plataforma
+  Organizar carrera  | Lleva al menú que permite organizar una carrera. Icono: Bandera a cuadros con un símbolo “+”
+  Buscar carrera  | Lleva a una lista de las carreras disponibles. Icono: Lupa con una bandera a cuadros dentro
+  Crear cuenta  | Lleva al menú para crear una cuenta, diferenciando entre usuario e instalaciones. Icono: Monigote con un símbolo “+”
+  Ranking de usuarios  | Lleva a la lista de usuarios. Tiene filtros y buscador para poder buscar a un usuario específico. Icono: Podio
+  Perfil  | Lleva a la información de perfil. Icono: Imagen de perfil del usuario
+  Registrar instalación  | Lleva a la página de registro de instalación. Solo puedes acceder con una cuenta de instalaciones. Icono: La silueta de un circuito con un símbolo “+”
+  Instalaciones disponibles  | Lleva a la lista de circuitos disponibles. Icono: Silueta de un circuito
+  Contacto  | Lleva a la página de contacto. Icono: teléfono
+  About us  | Lleva a la página de información sobre la empresa. Icono: varios monigotes
+
 
 
 ![Método UX](img/Wireframes.png) 2.d Wireframes
 -----
 
->>> Plantear el  diseño del layout para Web/movil (organización y simulación ) 
+> **Página inicio no registrado**
+![bocetos-PaginaInicioNoRegistrado](P2/Bocetos/bocetos-PaginaInicioNoRegistrado.png)
+
+> **Página inicio registrado**
+![bocetos-PaginaInicioRegistrado](P2/Bocetos/bocetos-PaginaInicioRegistrado.png)
+
+> **Página inicio instalación**
+![bocetos-PaginaInicioInstalacion](P2/Bocetos/bocetos-PaginaInicioInstalacion.png)
+
+> **Buscar carrera**
+![bocetos-BuscarCarrera](P2/Bocetos/bocetos-BuscarCarrera.png)
+
+> **Organizar carrera**
+![bocetos-OrganizarCarrera](P2/Bocetos/bocetos-OrganizarCarrera.png)
+
+> **Carrera**
+![bocetos-Carrera](P2/Bocetos/bocetos-Carrera.png)
+
+> **Perfil**
+![bocetos-Perfil](P2/Bocetos/bocetos-Perfil.png)
 
 
 ## Paso 3. Mi UX-Case Study (diseño)
