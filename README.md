@@ -23,7 +23,7 @@ premios, o los organizadores pueden optar por organizar carreras para un determi
 nivel.
 
 Logotipo: 
->>> Opcionalmente si diseña un logotipo para su producto en la práctica 3 pongalo aqui
+![Logo](P3/logo/logo_large_girado_blanco.png)
 
 Miembros
  * :bust_in_silhouette:  Millán Gálvez, Jaime ([Link a perfil](https://github.com/jmillangalvez))    :octocat:     
@@ -208,12 +208,15 @@ pasar al siguiente nivel y competir con más gente con sus misma afición.
 
 ![Método UX](img/moodboard.png) 3.a Moodboard
 -----
+![Moodboard](P3/MoodBoard/MoodBoard.png)
 
+> **Paleta de colores:** La elección de los colores **blanco** y **negro** viene sobre todo de la bandera a cuadros. Por otro lado el color **rojo** lo hemos escogido porque es un color que representa la pasión y la emoción, además de ser el color principal de Ferrari, muy conocido por su trayectoria en el mundo del motor.
 
->>> Plantear Diseño visual con una guía de estilos visual (moodboard) 
->>> Incluir Logotipo
->>> Si diseña un logotipo, explique la herramienta utilizada y la resolución empleada. ¿Puede usar esta imagen como cabecera de Twitter, por ejemplo, o necesita otra?
+> **Tipografía:** Hemos elegido **Lato** debido a su sencillez y redondez, ya que sus curvas nos recuerdan a las de un circuito.
 
+> **Iconos:** Hemos elegido esos iconos por su sencillez y porque son fácilmente reconocibles.
+ 
+> **Logo:** La resolución del logo es de 1500x400px. Es un logo alargado, perfecto para cabeceras. Además, en la carpeta de logo hay otras opciones, como por ejemplo el mismo logo en blanco y otras versiones ms cuadradas que pueden servir para fotos de perfil en las redes sociales
 
 ![Método UX](img/landing-page.png)  3.b Landing Page
 ----
