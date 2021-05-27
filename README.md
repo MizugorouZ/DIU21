@@ -261,65 +261,70 @@ pasar al siguiente nivel y competir con más gente con sus misma afición.
 ----
 
 
->>> Breve descripción del caso asignado con enlace a  su repositorio Github
+> **Navis:** Se trata de una aplicación para realizar itinerarios de viajes permitiendo a los usuarios elegir distintas características como vuelos, estancia, rutas... Desde la app, una vez elegida la ruta principal, puedes añadir elementos al viaje como fotos, sugerencias, precios estimados, etc, de forma que si compartes viaje con otras personas, puedes tener una zona común donde desarrollar idea sobre el mismo.
+> 
+> [Link a repositorio](https://github.com/santiagocarbo89/DIU21)    :octocat:
 
 
 ![Método UX](img/usability-testing.png) 4.b User Testing
 ----
-
->>> Seleccione 4 personas ficticias. Exprese las ideas de posibles situaciones conflictivas de esa persona en las propuestas evaluadas. Asigne dos a Caso A y 2 al caso B
- 
+ > **Tirada dados**
+ > 
+ > **Persona 1:**
+ > - **Tipo:** 5, Trabajador
+ > - **Actividad:** 3, Baile
+ > - **Emociones:** 1, Enfadado
+ > 
+ > **Persona 2:**
+ > - **Tipo:** 1, Tranquilo
+ > - **Actividad:** 2, Organizador
+ > - **Emociones:** 6, Tristeza
+ > 
+ > **Persona 3:**
+ > - **Tipo:** 3, Amigable
+ > - **Actividad:** 6, Caminar
+ > - **Emociones:** 4, Sorprendido
+ > 
+ > **Persona 4:**
+ > - **Tipo:** 2, Familiar
+ > - **Actividad:** 5, Fotografía
+ > - **Emociones:** 1, Enfadado
 
 | Usuarios | Sexo/Edad     | Ocupación   |  Exp.TIC    | Personalidad | Plataforma | TestA/B
 | ------------- | -------- | ----------- | ----------- | -----------  | ---------- | ----
-| User1's name  | H / 18   | Estudiante  | Media       | Introvertido | Web.       | A 
-| User2's name  | H / 18   | Estudiante  | Media       | Timido       | Web        | A 
-| User3's name  | M / 35   | Abogado     | Baja        | Emocional    | móvil      | B 
-| User4's name  | H / 18   | Estudiante  | Media       | Racional     | Web        | B 
+| Rafa  | H / 30   | Trabajador en un comedor infantil  | Media/Alta       | Trabajador/Baile/Enfadado | Móvil       | A 
+| Javier  | H / 21   | Estudiante  | Media/Baja       | Tranquilo/Organizador/Tristeza       | Móvil        | B 
+| Cintia  | M / 20   | Panadera    | Media        | Amigable/Caminar/Sorprendido    |Tablet      | A 
+| Alba  | M / 50   | Profesora  | Alta       | Familiar/Fotografía/Enfadado     | Web        | B 
 
 
 ![Método UX](img/Survey.png). 4.c Cuestionario SUS
 ----
-
->>> Usaremos el **Cuestionario SUS** para valorar la satisfacción de cada usuario con el diseño (A/B) realizado. Para ello usamos la [hoja de cálculo](https://github.com/mgea/DIU19/blob/master/Cuestionario%20SUS%20DIU.xlsx) para calcular resultados sigiendo las pautas para usar la escala SUS e interpretar los resultados
-http://usabilitygeek.com/how-to-use-the-system-usability-scale-sus-to-evaluate-the-usability-of-your-website/)
-Para más información, consultar aquí sobre la [metodología SUS](https://cui.unige.ch/isi/icle-wiki/_media/ipm:test-suschapt.pdf)
-
->>> Adjuntar captura de imagen con los resultados + Valoración personal 
+![SUS_Rafa](P4/SUS/SUS_Rafa.png)
+![SUS_Javier](P4/SUS/SUS_Javier.png)
+![SUS_Cintia](P4/SUS/SUS_Cintia.png)
+![SUS_Alba](P4/SUS/SUS_Alba.png)
+![SUS_Nota](P4/SUS/SUS_Nota.png)
 
 
 ![Método UX](img/usability-report.png) 4.d Usability Report
 ----
 
->> Añadir report de usabilidad para práctica B (la de los compañeros)
+> [Pulse aquí para acceder al Usability Report](https://github.com/MizugorouZ/DIU21/blob/master/P4/P4_UsabReport_Navis_doneby_DIU3_ALH.pdf)
 
 
 
->>> Valoración personal 
-
-
-## Paso 5. Evaluación de Accesibilidad  
-
-
-![Método UX](img/Accesibility.png)  5.a Accesibility evaluation Report 
-----
-
->>> Indica qué pretendes evaluar (de accesibilidad) sobre qué APP y qué resultados has obtenido 
-
->>> 5.a) Evaluación de la Accesibilidad (con simuladores o verificación de WACG) 
->>> 5.b) Uso de simuladores de accesibilidad 
-
->>> (uso de tabla de datos, indicar herramientas usadas) 
-
->>> 5.c Breve resumen del estudio de accesibilidad (de práctica 1) y puntos fuertes y de mejora de los criterios de accesibilidad de tu diseño propuesto en Práctica 4.
-
+> En general la aplicación cumple bien su cometido. Como hemos comentado, hay varios aspectos que podrían ser mejorados, sobre todo el hecho de que la planificación de un mismo viaje está dividida en varias páginas distintas, lo que puede despistar a clientes con menos experiencia.
+>
+> El contenido de la aplicación es un poco simple, pero concreto. Se centra en un único aspecto, que es organizar un viaje, pero está bien implementado y cumple su cometido.
+>
+> También cabe mencionar que la documentación de la aplicación es escasa. Solo muestra algunas funcionalidades de las que se mencionan en la descripción y a veces es complicado seguir el hilo de las fotos para saber como llegar a un funcionalidad completa. Estaría bien añadir una demo de la app para que se pudiera probar el prototipo.
 
 
 ## Conclusión final / Valoración de las prácticas
-
-
->>> (90-150 palabras) Opinión del proceso de desarrollo de diseño siguiendo metodología UX y valoración (positiva /negativa) de los resultados obtenidos  
-
+> En general, me ha gustado realizar estas prácticas. La metodología UX me parece muy acertada, ya que el objetivo de una aplicación o programa es que tenga una utilidad para sus clientes, y diseñar estos productos en base a la experiencia de usuarios hará que el producto final cumpla los requisitos y las expectativas que los clientes esperan. Gracias a estas prácticas hemos aprendido a ponernos en la piel de los usuarios finales y a desarrollar una aplicación en función de lo que ellos esperan, y no desde el punto de vista de un programador, que puede ser totalmente distinto.
+> 
+> En definitiva, creo que han sido una de las prácticas más útiles que hemos realizado en toda la carrera, tanto por lo que se aprende como por la utilidad que tienen.
 
 
 
